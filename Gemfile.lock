@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     arel (8.0.0)
     builder (3.2.3)
+    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -89,6 +90,9 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.19.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     puma (3.11.2)
     rack (2.0.3)
     rack-test (0.8.2)
@@ -168,6 +172,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   pg (~> 0.18)
+  pry
   puma
   rails
   sass-rails
