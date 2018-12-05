@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.6'
-
+gem 'dotenv-rails', groups: [:development, :test]
+gem "httparty"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use postgresql as the database for Active Record
@@ -36,4 +37,3 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
